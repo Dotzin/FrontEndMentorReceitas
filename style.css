@@ -1,0 +1,202 @@
+@font-face {
+  font-family: Outfit;
+  src: url(assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: YoungSerif;
+  src: url(assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+@media screen and (min-width: 00px) {
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Outfit;
+  }
+  #ImagemOmelete {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  #Titulo {
+    font-size: 30px;
+    margin: 10px;
+    font-family: YoungSerif;
+    padding: 10px;
+  }
+
+  .Descricao {
+    margin: 10px;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  .Subtitulos {
+    font-size: 16px;
+  }
+  #SubPreparo {
+    font-size: 20px;
+    margin: 15px;
+  }
+  .Subtitulos {
+    margin: 15px;
+    font-size: 35px;
+    font-family: YoungSerif;
+    color: hsl(332, 51%, 32%);
+  }
+  .Preparo {
+    background-color: hsl(330, 100%, 98%);
+    width: 90%;
+  }
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .Lista {
+    color: hsl(24, 5%, 18%);
+    margin: 10px;
+    font-weight: 500;
+  }
+  .Descricao {
+    color: hsl(24, 5%, 18%);
+  }
+  .Bold {
+    font-weight: 800;
+  }
+  .Lista::marker {
+    font-weight: 800;
+    color: hsl(14, 45%, 36%);
+  }
+  #SubPreparo {
+    font-size: 18px;
+    font-family: YoungSerif;
+    color: hsl(332, 51%, 32%);
+  }
+  hr {
+    border: 0;
+    clear: both;
+    display: block;
+    width: 80%;
+    background-color: #c2c2c2;
+    height: 1px;
+  }
+  .itensnutricionais {
+    display: flex;
+    font-family: Outfit;
+    align-items: center;
+  }
+  .tabela {
+    margin-left: 20%;
+    margin-right: 15%;
+  }
+  .nutricionais {
+    font-weight: 900;
+    color: hsl(14, 45%, 36%);
+  }
+}
+@media screen and (max-width: 500px) {
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  #ImagemOmelete {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  #Titulo {
+    font-size: 30px;
+    margin: 10px;
+    font-family: YoungSerif;
+    padding: 10px;
+  }
+
+  .Descricao {
+    margin: 10px;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  .Subtitulos {
+    font-size: 16px;
+  }
+  #SubPreparo {
+    font-size: 20px;
+    margin: 15px;
+  }
+  .Subtitulos {
+    margin: 15px;
+    font-size: 35px;
+    font-family: YoungSerif;
+    color: hsl(332, 51%, 32%);
+  }
+  .Preparo {
+    background-color: hsl(330, 100%, 98%);
+    width: 90%;
+  }
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .Lista {
+    color: hsl(24, 5%, 18%);
+    margin: 10px;
+    font-family: Outfit;
+    font-weight: 500;
+  }
+  .Descricao {
+    font-family: Outfit;
+    color: hsl(24, 5%, 18%);
+  }
+  .Bold {
+    font-weight: 800;
+  }
+  #SubPreparo {
+    font-size: 18px;
+    font-family: YoungSerif;
+    color: hsl(332, 51%, 32%);
+  }
+  hr {
+    border: 0;
+    clear: both;
+    display: block;
+    width: 80%;
+    background-color: #c2c2c2;
+    height: 1px;
+  }
+  .itensnutricionais {
+    display: flex;
+    align-items: center;
+  }
+  .tabela {
+    margin-left: 20%;
+    margin-right: 15%;
+  }
+  .nutricionais {
+    font-weight: 900;
+    color: hsl(14, 45%, 36%);
+  }
+}
+@media screen and (max-width: 1440px) and (min-width: 501px) {
+  body {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .FullConteiner {
+    max-width: 500px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: white;
+    border-radius: 5px;
+    border-color: white;
+    padding: 5px;
+  }
+  html {
+    background-color: hsl(30, 54%, 90%);
+  }
+}
